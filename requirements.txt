@@ -1,0 +1,17 @@
+# Core framework
+fastapi
+
+# HTTP client
+httpx
+
+# Supabase client
+supabase-py
+
+# For async (used in threads / orchestration)
+uvicorn
+
+# Datetime / utils (comes with Python but good to ensure version compatibility)
+python-dateutil
+
+# Optional: dotenv for local testing (you can load secrets from .env if needed)
+python-dotenv
