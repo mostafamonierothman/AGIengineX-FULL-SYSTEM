@@ -1,0 +1,31 @@
+# wrangler.toml
+
+name = "agienginex-full-system"
+main = "app/main.py"
+
+compatibility_date = "2024-06-01"
+
+# Python workers support (using cloudflare/worker-python template)
+# If using Cloudflare Pages + Workers OR Cloudflare Functions → adjust target
+# For pure Worker:
+workers_dev = true
+
+# For using environment variables (SECRETS!)
+[vars]
+STRIPE_API_KEY = ""
+PAYPAL_CLIENT_ID = ""
+PAYPAL_SECRET = ""
+WISE_API_KEY = ""
+BANKING_API_KEY = ""
+CRM_API_KEY = ""
+EMAIL_API_KEY = ""
+LINKEDIN_API_KEY = ""
+TELEGRAM_BOT_TOKEN = ""
+HEALTHCARE_CRM_API_KEY = ""
+SUPABASE_URL = ""
+SUPABASE_KEY = ""
+
+# If you later use routes:
+# routes = [
+#     { pattern = "https://your-domain.com/api/*", script = "agienginex-full-system" }
+# ]
