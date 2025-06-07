@@ -5,7 +5,7 @@ fastapi
 httpx
 
 # Supabase client
-supabase-py
+supabase
 
 # For async (used in threads / orchestration)
 uvicorn
