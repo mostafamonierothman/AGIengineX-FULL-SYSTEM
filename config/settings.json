@@ -1,0 +1,9 @@
+{
+    "loop_interval_seconds": 60,
+    "femtosecond_cycles_per_loop": 1000,
+    "ethics_level": "strict",
+    "max_concurrent_agents": 10,
+    "agent_spawn_policy": "dynamic",
+    "logging_level": "info",
+    "enable_notifications": true
+}
